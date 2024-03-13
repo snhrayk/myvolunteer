@@ -1,0 +1,124 @@
+html {
+  font-size: 62.5%;
+}
+
+main {
+  width: 100vw;
+  height: 92vh;
+  overflow: auto;
+}
+main .headerImg {
+  width: 100vw;
+  height: 16vh;
+  background-color: grey;
+  text-align: end;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+main .headerImg img {
+  padding: 1.4rem;
+}
+main .headerImg .userTop {
+  width: 100vw;
+  height: 20vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .headerImg .userTop .userIcon {
+  width: 12rem;
+  height: 12rem;
+  background-color: tomato;
+  border-radius: 50%;
+}
+main .headerImg .userTop .btnWrap {
+  width: 48vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .headerImg .userTop .btnWrap .mailBtn {
+  width: 3rem;
+  height: 3rem;
+  background-color: #61b23a;
+  border-radius: 50%;
+  border: 1px solid #61b23a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .headerImg .userTop .btnWrap .editBtn {
+  padding: 0.8rem 4rem;
+  background-color: #61b23a;
+  border-radius: 7.8rem;
+  font-size: 1.6rem;
+  text-align: end;
+  color: white;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 7rem 0 0 2rem;
+}
+
+.prText {
+  font-size: 1.2rem;
+  margin: 3rem 2rem 4.4rem 2rem;
+}
+
+.prizeWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  margin-bottom: 2.4rem;
+}
+.prizeWrap .prize {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd582;
+  border-radius: 50%;
+}
+.prizeWrap .prize p {
+  padding-top: 0.4rem;
+  font-size: 1.2rem;
+  color: #6e6e6e;
+}
+
+section {
+  width: 100vw;
+  height: 12rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2.4rem 0;
+}
+section .postImg {
+  width: 12rem;
+  height: 12rem;
+  background-color: tomato;
+}
+section .postText {
+  width: 60vw;
+  height: 12rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .postText h3 {
+  font-size: 1.6rem;
+}
+section .postText p {
+  font-size: 1.2rem;
+  margin: 0.6rem 0;
+}/*# sourceMappingURL=view.css.map */
